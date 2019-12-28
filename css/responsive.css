@@ -1,0 +1,31 @@
+@media (max-width: 1363px) { 
+    .music-apps-section img{
+        width: 800px;
+        height: 600px;
+    }
+
+}
+
+@media (max-width: 806px) { 
+    .music-apps-section img{
+        width: 700px;
+        height: 550px;
+    }
+
+}
+
+@media (max-width: 692px) { 
+    .music-apps-section img{
+        width: 600px;
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 600px) { 
+    .music-apps-section img{
+        width: 500px;
+        height: 450px;
+    }
+
+}

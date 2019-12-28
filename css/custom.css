@@ -1,0 +1,240 @@
+/* =========================
+    Custom font configuration
+============================ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+/* ============================
+    Custom font configuration
+=============================== */
+@font-face {
+    font-family: gismo;
+    src: url(../fonts/gismo.ttf);
+    src: url(../fonts/gismo.eot);
+}
+
+@font-face {
+    font-family: caviar;
+    src: url(../fonts/caviar.ttf);
+}
+
+/* =============================
+    local css
+=============================== */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* =============================
+    Header part
+=============================== */
+header,
+.headphone-section,
+.music-section {
+    background-color: #0a2345;
+}
+
+/* Menu part */
+.navbar-toggler span {
+    width: 35px;
+    height: 3px;
+    background-color: #2a5ea4;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+/* banner part */
+
+
+
+header .banner h1,
+h6,
+.btn-custom,
+.nav-link,
+.headphone-section h1,
+.feature-section h1,
+p,
+.music-feature h1 {
+    color: #fff;
+
+}
+
+header .banner h1 span,
+.headphone-section h1 span,
+.feature-section h1 span,
+.music-feature h1 span {
+    color: #2a5ea4;
+
+}
+
+.btn-custom {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.banner h1 {
+    margin-top: 190px;
+}
+
+.banner h6 {
+    margin-top: 30px;
+}
+
+.banner a {
+    margin-top: 70px;
+    margin-bottom: 200PX;
+}
+
+/* =============================
+    Music Apps section
+=============================== */
+
+.music-apps-section {
+    background: #0a2345 url(../images/background-music-apps.png) no-repeat;
+    background-position: center;
+
+
+}
+
+/* =============================
+    Headphone section
+=============================== */
+.headphone-feature p {
+    padding: 40px 0;
+}
+
+.headphone-section {
+    padding-top: 200px;
+    position: relative;
+}
+
+.headphone-section img {
+    position: absolute;
+    left: 274px;
+    top: 0;
+}
+
+/* feature-section */
+.feature-section {
+    background-color: #0a2345;
+    padding-top: 250px;
+}
+
+.feature-section .heading {
+    padding-bottom: 88px;
+
+}
+
+.feature h4 {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.feature p {
+    min-width: 360px;
+    font-size: 14px;
+    color: #66778e;
+}
+
+.features {
+    position: relative;
+
+}
+
+.feature-image {
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.feature-section {
+    min-height: 1100px;
+}
+
+/* music section */
+.music-section p {
+    padding: 40px 0;
+}
+
+.music-section {
+    padding-top: 200px;
+    position: relative;
+    height: 800px;
+}
+
+.music-section img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* =============================
+    Feedback section
+=============================== */
+.feedback {
+    background-image: url(../images/hand-background.png);
+    padding: 300px 0;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+
+
+}
+
+.feedback::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #0a2345d9;
+    top: 0;
+    left: 0;
+}
+
+/* =============================
+Discover section
+=============================== */
+.discover-section {
+    background-color: #040a15;
+    padding: 40px 0;
+}
+
+.discover-section .container {}
+
+.discover-section .container h1 {
+    color: #fff;
+
+}
+
+.discover-section .container p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.discover-section .container img {}
+
+.discover-section .container a {}
+
+.footer-section {
+    background-color: #040a15;
+
+}
+
+/* Footer section */
+.footer-section,
+.footer-section a {
+    color: #14396a;
+    font-size: 14px;
+}
+
+.footer-section .container {
+    border-top: 1px solid #14396a;
+}
